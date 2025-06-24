@@ -1,0 +1,47 @@
+.section-padding {
+  padding: 100px 0;
+}
+
+.line {
+  height: 2px;
+  width: 100px;
+  background: #000;
+  margin: 0 auto 50px;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* .navbar-brand {
+  padding: 10px 15px;
+  font-size: 28px;
+  color: #fff;
+} */
+.navbar a{
+  color: #fff;
+}
+
+.nav-item {
+  padding: 0 20px;
+  text-transform: uppercase;
+}
+
+.hero {
+  background: url("../image/hero-6.jpg");
+  background-size: cover;
+  background-position: top left;
+  height: 100vh;
+  color: #fff;
+  position: relative;
+}
+
+.about-img {
+  max-height: 400px;
+}
+
+/* .banner-text {
+    padding: 10px 15px;
+    background-color: #2980b9;
+} */
