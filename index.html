@@ -4,8 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dark Mode</title>
+    <!-- Style CSS -->
     <link rel="stylesheet" href="./css/style.css" />
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!--  -->
+    <!--  AOS (Animate On Scroll) -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!-- Header -->
@@ -33,18 +38,18 @@
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
   
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Інфо</a>
+                  <a class="nav-link" href="#about">Інфо</a>
                 </li>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Пропозиції</a>
+                  <a class="nav-link" href="#services">Пропозиції</a>
                 </li>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Портфоліо</a>
+                  <a class="nav-link" href="#portfolio">Портфоліо</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Контакти</a>
+                  <a class="nav-link" href="#contacts">Контакти</a>
                 </li>
               </ul>
             </div>
@@ -54,27 +59,42 @@
             <div class="row h-100 align-items-center">
                 <div class="col-12 text-center h-100 d-flex justify-content-center align-items-center">
                     <div class="banner-text ">
-                        <h1 class="mb-4">Привіт! Я - Алекс</h1>
-                        <h2 class="mb-5">Веб-розробник та графічний дизайнер</h2>
-                        <a href="" class="btn btn-outline-light px-3 py-2">Зв'язатись зі мною</a>
+                        <h1 class="mb-4"
+                          data-aos="fade-up"
+                          data-aos-duration="800" 
+                        >Привіт! Я - Алекс
+                        </h1>
+                        <h2 class="mb-5"
+                          data-aos="fade-up"
+                          data-aos-delay="200"
+                          data-aos-duration="800"
+                        >Веб-розробник та графічний дизайнер
+                        </h2>
+                        <a href="https://t.me/freestylesoft" 
+                          class="btn btn-outline-light px-3 py-2"
+                          data-aos="zoom-in"
+                          data-aos-delay="400"
+                          data-aos-duration="600"
+                        >Зв'язатись зі мною
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
       </section>
     <!-- Section About -->
-     <section class="about py-5">
+     <section class="about py-5" id="about">
         <div class="container">
             <div class="row section-header">
                 <div class="col-md-12 text-center">
-                    <h2>ПРО МЕНЕ</h2>
+                    <h2>Про мене</h2>
                     <P class="line"></P>
                 </div>
             </div>
-            <div class="row justify-content-between align-items-center">
+            <div class="row justify-content-between align-items-center g-5">
 
                 <div class="col-md-6">
-                   <h4 class="mb-4 text-center">Професійний веб-розробник та графічний дизайнер</h4>
+                   <h4 class="mb-4 text-center">Професійний веб-розробник <br> та графічний дизайнер</h4>
                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque itaque ratione error delectus maxime. Accusantium laboriosam aperiam deserunt omnis ipsa.</p>
                 </div>
                 <div class="col-md-6 text-center">
@@ -83,6 +103,41 @@
             </div>
         </div>
      </section>
+     <!-- Section Services -->
+     <section class="services py-5" id="services">
+      <div class="container">
+        <div class="row section-header">
+            <div class="col-md-12 text-center">
+                <h2>Пропозиції</h2>
+                <P class="line"></P>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center g-5">
+
+            <div class="col-md-4">
+               <h4 class="mb-4 text-left">Контекстна реклама</h4>
+               <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque itaque ratione error delectus maxime. Accusantium laboriosam aperiam deserunt omnis ipsa.</p>
+               <p class=""><a href="https://t.me/freestylesoft" class="btn btn-secondary">Дізнатись більше</a></p>
+            </div>
+            <div class="col-md-4">
+              <h4 class="mb-4 text-left">Дизайн сайтів</h4>
+              <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque itaque ratione error delectus maxime. Accusantium laboriosam aperiam deserunt omnis ipsa.</p>
+              <p class=""><a href="https://t.me/freestylesoft" class="btn btn-secondary">Дізнатись більше</a></p>
+            </div>
+            <div class="col-md-4">
+              <h4 class="mb-4 text-left">Розробка сайтів</h4>
+              <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque itaque ratione error delectus maxime. Accusantium laboriosam aperiam deserunt omnis ipsa.</p>
+              <p class=""><a href="https://t.me/freestylesoft" class="btn btn-secondary">Дізнатись більше</a></p>
+            </div>
+        </div>
+    </div>
+     </section>
+     <!-- Boootstrap JS -->
     <script src="./js/bootstrap.min.js"></script>
+    <!-- AOS (Animate On Scroll) -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

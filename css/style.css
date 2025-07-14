@@ -40,6 +40,9 @@
 .about-img {
   max-height: 400px;
 }
+@media (max-width: 768px) {
+  .about-img {max-height: 100%;}
+}
 
 /* .banner-text {
     padding: 10px 15px;
