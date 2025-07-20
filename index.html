@@ -8,7 +8,11 @@
     <link rel="stylesheet" href="./css/style.css" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <!--  -->
+    <!-- Botstrap Icons  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
     <!--  AOS (Animate On Scroll) -->
     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
   </head>
@@ -18,120 +22,192 @@
 
     </header>
     <!-- End Header -->
-     <!-- Section Hero -->
-      <section class="hero py-5">
-        <nav class="navbar navbar-expand-lg navbar-dark w-100">
-          <div class="container">
-            <a class="navbar-brand" href="#">WebDev</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"> <i class="fa fa-bars"></i> </span>
-            </button>
-            <div class="collapse navbar-collapse jusstify-content-end" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-  
-                <li class="nav-item">
-                  <a class="nav-link" href="#about">Інфо</a>
-                </li>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#services">Пропозиції</a>
-                </li>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#portfolio">Портфоліо</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contacts">Контакти</a>
-                </li>
-              </ul>
+
+    <!-- Section Hero -->
+    <section class="hero py-5">
+      <nav class="navbar navbar-expand-lg navbar-dark w-100">
+        <div class="container">
+          <a class="navbar-brand" href="#">WebDev</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"> <i class="fa fa-bars"></i> </span>
+          </button>
+          <div class="collapse navbar-collapse jusstify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Інфо</a>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Пропозиції</a>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Портфоліо</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacts">Контакти</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container h-100">
+          <div class="row h-100 align-items-center">
+              <div class="col-12 text-center h-100 d-flex justify-content-center align-items-center">
+                  <div class="banner-text ">
+                      <h1 class="mb-4"
+                        data-aos="fade-up"
+                        data-aos-duration="800" 
+                      >Привіт! Я - Алекс
+                      </h1>
+                      <h2 class="mb-5"
+                        data-aos="fade-up"
+                        data-aos-delay="200"
+                        data-aos-duration="800"
+                      >Веб-розробник та графічний дизайнер
+                      </h2>
+                      <a href="https://t.me/freestylesoft" 
+                        class="btn btn-outline-light px-3 py-2"
+                        data-aos="zoom-in"
+                        data-aos-delay="400"
+                        data-aos-duration="600"
+                      >Зв'язатись зі мною
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Section Services -->
+    <section class="services py-5" id="services">
+      <div class="container">
+        <h2 class="text-center mb-5 fw-semibold" data-aos="fade-up">
+          Мої послуги
+        </h2>
+        <div class="row g-4">
+          <!-- Веб-дизайн -->
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="200">
+            <div class="card card-hover shadow h-100 py-4 bg-light text-dark">
+              <i class="bi bi-laptop display-5 text-center d-block mb-3 "></i>
+              <div class="card-body">
+                <h5 class="card-title text-center fw-semibold">Веб-дизайн</h5>
+                <p class="card-text text-center">
+                  Розробка сучасного інтерфейсу для сайту — з урахуванням бренду, UX/UI та адаптивності.
+                </p>
+              </div>
             </div>
           </div>
-        </nav>
-        <div class="container h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col-12 text-center h-100 d-flex justify-content-center align-items-center">
-                    <div class="banner-text ">
-                        <h1 class="mb-4"
-                          data-aos="fade-up"
-                          data-aos-duration="800" 
-                        >Привіт! Я - Алекс
-                        </h1>
-                        <h2 class="mb-5"
-                          data-aos="fade-up"
-                          data-aos-delay="200"
-                          data-aos-duration="800"
-                        >Веб-розробник та графічний дизайнер
-                        </h2>
-                        <a href="https://t.me/freestylesoft" 
-                          class="btn btn-outline-light px-3 py-2"
-                          data-aos="zoom-in"
-                          data-aos-delay="400"
-                          data-aos-duration="600"
-                        >Зв'язатись зі мною
-                        </a>
-                    </div>
-                </div>
+          <!-- Графічні креативи -->
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="300">
+            <div class="card card-hover shadow h-100 py-4 bg-light text-dark">
+              <i class="bi bi-brush display-5 text-center d-block mb-3 "></i>
+              <div class="card-body">
+                <h5 class="card-title text-center fw-semibold">Графічні креативи</h5>
+                <p class="card-text text-center">
+                  Банери, обкладинки, рекламні візуали для соцмереж та сайтів — креативно та якісно.
+                </p>
+              </div>
             </div>
+          </div>
+          <!-- Створення сайту -->
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="400">
+            <div class="card card-hover shadow h-100 py-4 bg-light text-dark">
+              <i class="bi bi-code-slash display-5 text-center d-block mb-3 "></i>
+              <div class="card-body">
+                <h5 class="card-title text-center fw-semibold">Створення сайту</h5>
+                <p class="card-text text-center">
+                  Від ідеї до публікації: повна реалізація сайту на HTML/CSS/JS або WordPress.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-      </section>
-    <!-- Section About -->
-     <section class="about py-5" id="about">
-        <div class="container">
-            <div class="row section-header">
-                <div class="col-md-12 text-center">
-                    <h2>Про мене</h2>
-                    <P class="line"></P>
-                </div>
-            </div>
-            <div class="row justify-content-between align-items-center g-5">
+      </div>
+    </section>
 
-                <div class="col-md-6">
-                   <h4 class="mb-4 text-center">Професійний веб-розробник <br> та графічний дизайнер</h4>
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque itaque ratione error delectus maxime. Accusantium laboriosam aperiam deserunt omnis ipsa.</p>
-                </div>
-                <div class="col-md-6 text-center">
-                  <img src="./image/about_2.jpg" alt="" class="img-fluid about-img rounded">
-                </div>
-            </div>
-        </div>
-     </section>
-     <!-- Section Services -->
-     <section class="services py-5" id="services">
-      <div class="container">
-        <div class="row section-header">
-            <div class="col-md-12 text-center">
-                <h2>Пропозиції</h2>
-                <P class="line"></P>
-            </div>
-        </div>
-        <div class="row justify-content-center align-items-center g-5">
+<!-- Section About -->
+<section class="about py-5" id="about">
+  <div class="container">
+      <div class="row section-header">
+          <div class="col-md-12 text-center" data-aos="fade-up" data-aos-duration="500">
+              <h2>Про мене</h2>
+              <p class="line"></p>
+          </div>
+      </div>
+      <div class="row justify-content-between align-items-center g-5">
+          <div class="col-md-6" data-aos="fade-up" data-aos-duration="600">
+              <h4 class="mb-4">Професійний веб-розробник <br> та графічний дизайнер</h4>
+              <p>Я створюю сучасні адаптивні сайти для малого бізнесу, персональних брендів та спеціалістів. Поєдную технічну точність веб-розробника з естетикою графічного дизайнера, щоб створювати сайти, які не лише працюють, а й приваблюють. Моя мета — допомогти вам вигідно презентувати себе в інтернеті та автоматизувати онлайн-запис, продаж або комунікацію з клієнтами. Працюю з WordPress, HTML/CSS, SEO, логотипами та візуальним стилем.</p>
+          </div>
+          <div class="col-md-6 text-center" data-aos="fade-up" data-aos-duration="700">
+              <img src="./image/about_2.jpg" alt="" class="img-fluid about-img rounded">
+          </div>
+      </div>
+  </div>
+</section>
 
-            <div class="col-md-4">
-               <h4 class="mb-4 text-left">Контекстна реклама</h4>
-               <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque itaque ratione error delectus maxime. Accusantium laboriosam aperiam deserunt omnis ipsa.</p>
-               <p class=""><a href="https://t.me/freestylesoft" class="btn btn-secondary">Дізнатись більше</a></p>
-            </div>
-            <div class="col-md-4">
-              <h4 class="mb-4 text-left">Дизайн сайтів</h4>
-              <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque itaque ratione error delectus maxime. Accusantium laboriosam aperiam deserunt omnis ipsa.</p>
-              <p class=""><a href="https://t.me/freestylesoft" class="btn btn-secondary">Дізнатись більше</a></p>
-            </div>
-            <div class="col-md-4">
-              <h4 class="mb-4 text-left">Розробка сайтів</h4>
-              <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque itaque ratione error delectus maxime. Accusantium laboriosam aperiam deserunt omnis ipsa.</p>
-              <p class=""><a href="https://t.me/freestylesoft" class="btn btn-secondary">Дізнатись більше</a></p>
-            </div>
+
+
+
+<!-- Section Portfolio -->
+<section class="portfolio py-5 bg-white" id="portfolio">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-semibold" data-aos="fade-up">
+      Портфоліо
+    </h2>
+    <div class="row g-4">
+      <!-- Проєкт 1 -->
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="200">
+        <div class="card card-hover shadow h-100 py-4 bg-light text-dark">
+          <i class="bi bi-globe2 display-5 text-center d-block mb-3 "></i>
+          <div class="card-body">
+            <h5 class="card-title text-center fw-semibold">GreenWorld Studio</h5>
+            <p class="card-text text-center">
+              Лендинг для екологічного бренду. Дизайн з фокусом на природність, швидке завантаження та мобільну адаптацію.
+            </p>
+          </div>
         </div>
+      </div>
+      <!-- Проєкт 2 -->
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="300">
+        <div class="card card-hover shadow h-100 py-4 bg-light text-dark">
+          <i class="bi bi-palette-fill display-5 text-center d-block mb-3 "></i>
+          <div class="card-body">
+            <h5 class="card-title text-center fw-semibold">Artify Social</h5>
+            <p class="card-text text-center">
+              Серія графічних банерів та постерів для Instagram-кампанії креативної агенції. Стильно, яскраво, з ефектами руху.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Проєкт 3 -->
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="400">
+        <div class="card card-hover shadow h-100 py-4 bg-light text-dark">
+          <i class="bi bi-building-check display-5 text-center d-block mb-3 "></i>
+          <div class="card-body">
+            <h5 class="card-title text-center fw-semibold">LegalSpace</h5>
+            <p class="card-text text-center">
+              Корпоративний сайт для юридичної компанії на WordPress: структура, функціональність, SEO та захищений контакт.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-     </section>
+  </div>
+</section>
+
+
+
      <!-- Boootstrap JS -->
     <script src="./js/bootstrap.min.js"></script>
     <!-- AOS (Animate On Scroll) -->
