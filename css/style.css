@@ -25,11 +25,11 @@
 
 .nav-item {
   padding: 0 20px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .hero {
-  background: url("../image/hero-6.jpg");
+  background: url("../image/hero.jpg");
   background-size: cover;
   background-position: top left;
   height: 100vh;
