@@ -29,7 +29,7 @@
 }
 
 .hero {
-  background: url("../image/hero.jpg");
+  background: url("../images/hero.jpg");
   background-size: cover;
   background-position: top left;
   height: 100vh;
@@ -48,3 +48,22 @@
     padding: 10px 15px;
     background-color: #2980b9;
 } */
+ 
+.navbar-toggler {
+  border-color: var(--bs-light); /* колір рамки */
+  border: none;
+  outline: hidden;
+}
+
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+
+
+.navbar-toggler:focus {
+  box-shadow: none;
+  outline: none;
+}
